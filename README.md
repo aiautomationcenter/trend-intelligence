@@ -41,6 +41,17 @@ The resulting JSON can be passed to the Agency HQ Research Agent. Records always
 4. Run `npm test`.
 5. Run `npm run collect`.
 
+## Import a Google Trends CSV
+
+1. Open Google Trends Explore, compare up to five search terms, set the country and time range, then use the download button to export the **Interest over time** CSV.
+2. Run:
+
+```sh
+npm run import:google -- "/absolute/path/to/multiTimeline.csv" "PureVeil" NG
+```
+
+Use `"Somni AI"` for sleep content. The importer writes normalized records to `data/imported/`. Google Trends values are preserved as relative interest from 0–100 and are never described as absolute search volume.
+
 Official API access must be approved separately by TikTok and Meta. This repository does not unlock unavailable platform data.
 
 ## Environment variables

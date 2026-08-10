@@ -6,10 +6,10 @@
   "description": "Permitted TikTok, Instagram and search trend intelligence for PureVeil Agency",
   "scripts": {
     "collect": "node src/index.js",
+    "import:google": "node src/import-google-trends.js",
     "test": "node --test"
   },
   "engines": {
     "node": ">=20"
   }
 }
-
