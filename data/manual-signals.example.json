@@ -1,0 +1,29 @@
+[
+  {
+    "brand": "PureVeil",
+    "platform": "tiktok",
+    "term": "skin barrier repair",
+    "signal_type": "creative_center_7d",
+    "observed_at": "2026-08-10T07:15:00+01:00",
+    "region": "NG",
+    "value": 82,
+    "value_kind": "relative_index",
+    "source_url": "https://ads.tiktok.com/business/creativecenter/",
+    "confidence": "medium",
+    "notes": "Example only — replace with a real dated observation"
+  },
+  {
+    "brand": "Somni AI",
+    "platform": "instagram",
+    "term": "sleepmaxxing",
+    "signal_type": "editorial_discovery",
+    "observed_at": "2026-08-10T07:15:00+01:00",
+    "region": "NG",
+    "value": null,
+    "value_kind": "not_public_volume",
+    "source_url": "https://www.instagram.com/",
+    "confidence": "low",
+    "notes": "Example only — Instagram discovery is not search-volume data"
+  }
+]
+
