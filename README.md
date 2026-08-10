@@ -59,4 +59,3 @@ Official API access must be approved separately by TikTok and Meta. This reposit
 - No unofficial Instagram private API.
 - No TikTok request signing or token rotation intended to imitate private clients.
 - Missing access is recorded as unavailable, never silently replaced with fabricated data.
-
